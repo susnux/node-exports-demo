@@ -1,0 +1,10 @@
+{
+  "name": "dummy-exported",
+  "version": "1.0.0",
+  "exports": {
+    "./*.js": {
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.cjs"
+    }
+  }
+}
